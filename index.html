@@ -435,6 +435,20 @@
             </a>
           </div>
         </div>
+        <div class="footer-subscribe-form">
+          <h4>Subscribe to the newsletter</h4>
+          <div class="input-button">
+            <form class="footer-form" name="subscribe">
+              <input type="email" name="email" placeholder="E-mail" />
+              <button type="submit">
+                Subscribe
+                <svg>
+                  <use href="./images/modalsign.svg.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -442,6 +456,52 @@
       <div class="modal-content">
         <div>
           <button class="close-btn" data-modal-close>&times;</button>
+          <div class="modal-form">
+            <h4>Leave your information and we'll call you back</h4>
+            <form class="form">
+              <label class="form-group">
+                <span class="label-text">Name</span>
+                <input type="text" id="name" name="name" />
+                <svg class="input-icon">
+                  <use href="/images/modalsign.svg.svg#icon-person-black"></use>
+                </svg>
+              </label>
+
+              <label class="form-group">
+                <span class="label-text">Telephone</span>
+                <input type="tel" id="telephone" name="telephone" />
+                <svg class="input-icon">
+                  <use href="/images/modalsign.svg.svg#icon-phone-black"></use>
+                </svg>
+              </label>
+              <label class="form-group">
+                <span class="label-text">E-mail</span>
+                <input type="email" id="email" name="email" />
+                <svg class="input-icon">
+                  <use href="/images/modalsign.svg.svg#icon-email-black"></use>
+                </svg>
+              </label>
+              <label class="comments-form">
+                <span class="label-text">Comments</span>
+                <textarea
+                  class="textarea"
+                  id="comments"
+                  rows="5"
+                  placeholder="Enter the text"
+                ></textarea>
+              </label>
+              <label class="checkbox-form">
+                <input type="checkbox" name="acceptTerms" />
+                <span
+                  >I agree with the letter and accept the
+                  <a href="term and conditions" class="terms"
+                    >Terms and Conditions</a
+                  ></span
+                >
+              </label>
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
