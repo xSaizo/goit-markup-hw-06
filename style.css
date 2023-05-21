@@ -790,9 +790,8 @@ address a:focus {
   color: #2196f3;
 }
 
-.form-group:focus {
+.form-group input:focus {
   border-color: #2196f3;
-  background: #2196f3;
 }
 
 .form-group:focus-within .label-text {
@@ -806,4 +805,8 @@ address a:focus {
 .comments-form:focus-within {
   transform: translatey(0);
   color: #2196f3;
+}
+
+.comments-form textarea:focus textarea {
+  border-color: #2196f3;
 }
