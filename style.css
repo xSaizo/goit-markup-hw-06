@@ -144,9 +144,7 @@ ul {
   color: #2196f3;
 }
 /* Footer Section Styles */
-.portfolio-footer {
-  margin-left: 65px;
-}
+
 .webstudio-logo-footer {
   font-family: "Raleway";
   font-weight: 700;
@@ -240,7 +238,6 @@ address a:focus {
   display: flex;
   flex-direction: column;
 }
-
 .footer-form button {
   display: flex;
   align-items: center;
