@@ -787,10 +787,6 @@ address a:focus {
   color: #2196f3;
 }
 
-.form-group input:focus {
-  border-color: #2196f3;
-}
-
 .form-group:focus-within .label-text {
   color: #2196f3;
   transform: translatey(0);
@@ -800,6 +796,7 @@ address a:focus {
   color: #2196f3;
 }
 .form-group:focus-within input {
+  outline: none;
   border-color: #2196f3;
 }
 
@@ -808,6 +805,7 @@ address a:focus {
   color: #2196f3;
 }
 
-.comments-form textarea:focus textarea {
+.comments-form:focus-within textarea {
+  outline: none;
   border-color: #2196f3;
 }
