@@ -802,6 +802,10 @@ address a:focus {
   transform: translatey(0);
   color: #2196f3;
 }
+.form-group:focus-within input {
+  border-color: #2196f3;
+}
+
 .comments-form:focus-within {
   transform: translatey(0);
   color: #2196f3;
